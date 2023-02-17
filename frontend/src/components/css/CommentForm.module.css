@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.textarea {
+    width: 600px;
+    height: 150px;
+    padding: 1rem;
+    border: 0;
+    color: black;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    transition: 500ms;
+    color: black;
+    font-size: 1rem;
+    transition: 200ms ease-out;
+}
+
+.btn:hover {
+    background-color: rgb(255, 176, 30);
+    cursor: pointer;
+}

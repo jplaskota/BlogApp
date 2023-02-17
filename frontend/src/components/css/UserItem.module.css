@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+
+.container nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.container button,
+.btn {
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    transition: 500ms;
+    color: black;
+    font-size: 1rem;
+    transition: 200ms ease-out;
+}
+
+.container button:hover,
+.btn:hover {
+    background-color: rgb(255, 176, 30);
+    cursor: pointer;
+}

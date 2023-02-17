@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "text": "Kraków",
+      "image": "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTBMp34UAkSaG5XBuz6Ltms4awEiuZolzspm0M8eJTeQrNZtUCkn0W3NMkv261jQEVC",
+      "creator": "fc27c390-f0a0-4248-8b80-df12391e20b5",
+      "id": "504a9fc6-d392-4c99-8aa6-c951ba5c1b3e",
+      "date": "2023-02-17T21:14:44.805Z",
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "nick": "test",
+      "email": "test@test.com",
+      "password": "$2a$12$GQuqA2oe9Up6JibFHkk5mOw5TlXgmIM6flPvZoqK1pVDFkQtGIOB6",
+      "id": "fc27c390-f0a0-4248-8b80-df12391e20b5"
+    }
+  ]
+}

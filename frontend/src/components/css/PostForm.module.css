@@ -1,0 +1,64 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.form p {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.form p label {
+    user-select: none;
+}
+
+.form p input,
+.form textarea {
+    padding: 0.5rem;
+    width: 25rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    transition: 500ms;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.form p input:focus,
+.form textarea:focus {
+    outline: none;
+}
+
+.form p textarea {
+    height: 10rem;
+    resize: none;
+    word-wrap: break-word;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.actions button {
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    transition: 500ms;
+    color: black;
+    font-size: 1rem;
+    transition: 200ms ease-out;
+}
+
+.actions button:hover {
+    background-color: rgb(255, 176, 30);
+    cursor: pointer;
+}

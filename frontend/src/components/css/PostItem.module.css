@@ -1,0 +1,59 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 1200px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(31, 31, 31);
+}
+
+.post p {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.post time {
+    font-size: 1.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+menu .edit {
+    color: black;
+    text-decoration: none;
+}
+
+menu button,
+.edit {
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    transition: 500ms;
+    color: black;
+    font-size: 1rem;
+    transition: 200ms ease-out;
+}
+
+menu button:hover,
+.edit:hover {
+    background-color: rgb(255, 176, 30);
+    cursor: pointer;
+}
